@@ -44,6 +44,7 @@ The following workflows are currently supported:
     * Phone numbers are now numbers only and can not contain other characters
     * Documents are now available on all fields and are uploaded using a multipart form
     * Document max file size is now 8MB
+    * custom_data is a new field at the root level. This field can contain any arbitrary JSON.
 * Gateway flows
     * Terminal data has been moved into a terminal.terminal_data object. This object field will have different fields depending on the terminal.terminal_type passed in.
 
